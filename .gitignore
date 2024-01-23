@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Storage files
+storage/*
+
+# Keep empty directories
+!.gitkeep
+
+# GoLand
+.idea/
+
+# Seed
+core/database/seed/*
+
+# Static
+public/*
+!public/.gitkeep
